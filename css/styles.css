@@ -93,3 +93,33 @@ body{
 .feature-head{
   font-size: 1.5rem;
 }
+
+#testimonials{
+  padding: 7% 15%;
+  background-color:#ef8172;
+  color: white;
+  text-align: center;
+}
+
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
