@@ -120,10 +120,8 @@ h2{
   text-align: center;
 }
 
-#press{
-  background-color:#ef8172;
-  text-align: center;
-  padding-bottom: 3%;
+.carousel-item{
+  padding: 7% 15%;
 }
 
 .testimonial-img{
@@ -132,14 +130,18 @@ h2{
   margin: 20px;
 }
 
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
 .press-logo{
   width: 15%;
   margin: 20px 20px 50px;
 }
 
-.carousel-item{
-  padding: 7% 15%;
-}
+/* Pricing */
 
 #pricing{
   padding: 100px;
@@ -149,6 +151,8 @@ h2{
 .pricing-colomn{
   padding: 3% 2%;
 }
+
+/* CTA */
 
 #cta{
   background-color:#ff4c68;  
@@ -162,6 +166,8 @@ h2{
   font-weight: 900;
 }
 
+/* Footer */
+
 #footer{
   text-align: center;
   padding: 7% 15%;
@@ -172,6 +178,8 @@ h2{
   color: black;
   margin: 20px 10px;
 }
+
+/* Media Queries */
 
 @media(max-width: 991px){
   .phone-img{
