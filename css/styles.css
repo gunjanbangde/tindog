@@ -140,3 +140,14 @@ h2{
 .pricing-colomn{
   padding: 3% 2%;
 }
+
+@media(max-width: 1028px){
+  .phone-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+  .yoyo{
+    text-align: center;
+  }
+}
