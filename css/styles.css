@@ -1,15 +1,48 @@
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+h2,h3{
+  font-family: "Montserrat";
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Title Section */
+
 #title {
   background-color: #ff4c68;
   color: #fff;
 }
 
-.row {
-  width: 100%;
+.container-fluid {
+  padding: 3% 15% 7%;
 }
 
-h3{
-  font-family: "Montserrat";
+/* Nav Bar */
+.navbar{
+  padding: 0 0 4.5rem;
 }
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "ubuntu";
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "montserrat";
+}
+
+/* Main Section */
+
 #header {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
@@ -17,34 +50,8 @@ h3{
   font-weight: 1000;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
-}
-
-.navbar{
-    padding: 0 0 4.5rem;
-}
-
-.navbar-brand{
-    font-size: 2.5rem;
-    font-family: "ubuntu";
-}
-
-.nav-item{
-    padding: 0 18px;
-}
-
-.nav-link{
-    font-size: 1.2rem;
-    font-family: "montserrat";
-}
-
 .download-btn{
     margin: 5% 3% 5% 0;
-}
-
-body{
-    font-family: "Montserrat", sans-serif;
 }
 
 .phone-img{
@@ -54,12 +61,26 @@ body{
     right: 30%;
 }
 
+.row {
+  width: 100%;
+}
+
+/* Features Section */
+
 #features{
   text-align: center;
   background-color: #fff;
   padding: 7% 15%;
   z-index: 1;
   position: relative;
+}
+
+.feature-body{
+  color: #8f8f8f;
+}
+
+.feature-head{
+  font-size: 1.5rem;
 }
 
 .fa-check-circle{
@@ -91,13 +112,7 @@ body{
   size: 100px;
 }
 
-.feature-body{
-  color: #8f8f8f;
-}
-
-.feature-head{
-  font-size: 1.5rem;
-}
+/* Testimonials */
 
 #testimonials{
   background-color:#ef8172;
@@ -109,12 +124,6 @@ body{
   background-color:#ef8172;
   text-align: center;
   padding-bottom: 3%;
-}
-
-h2{
-  font-family: "Montserrat";
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 .testimonial-img{
@@ -141,7 +150,30 @@ h2{
   padding: 3% 2%;
 }
 
-@media(max-width: 1028px){
+#cta{
+  background-color:#ff4c68;  
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta h3{
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+  color: #8f8f8f;
+}
+
+.foot-ico{
+  color: black;
+  margin: 20px 10px;
+}
+
+@media(max-width: 991px){
   .phone-img{
     position: static;
     transform: rotate(0);
