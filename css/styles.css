@@ -18,7 +18,7 @@ h3{
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .navbar{
@@ -49,12 +49,17 @@ body{
 
 .phone-img{
     width: 60%;
-    transform: rotate(25deg)
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 #features{
   text-align: center;
+  background-color: #fff;
   padding: 7% 15%;
+  z-index: 1;
+  position: relative;
 }
 
 .fa-check-circle{
@@ -129,4 +134,9 @@ h2{
 
 #pricing{
   padding: 100px;
+  text-align: center;
+}
+
+.pricing-colomn{
+  padding: 3% 2%;
 }
